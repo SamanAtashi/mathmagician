@@ -1,4 +1,8 @@
 /* Root css */
+:root {
+  --color-1: orange;
+}
+
 * {
   margin: 0;
   padding: 0;

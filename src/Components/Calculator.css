@@ -104,7 +104,7 @@ button:hover {
 
 .o-13 {
   order: 4;
-  background-color: tomato;
+  background-color: var(--color-1);
 }
 
 .o-14 {
@@ -113,22 +113,22 @@ button:hover {
 
 .o-15 {
   order: 9;
-  background-color: tomato;
+  background-color: var(--color-1);
 }
 
 .o-16 {
   order: 17;
-  background-color: tomato;
+  background-color: var(--color-1);
 }
 
 .o-17 {
   order: 13;
-  background-color: tomato;
+  background-color: var(--color-1);
 }
 
 .o-18 {
   order: 20;
-  background-color: tomato;
+  background-color: var(--color-1);
 }
 
 .o-19 {
