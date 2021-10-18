@@ -7,8 +7,8 @@ Simple Calculator built with React. It allows users to make simple calculations 
 
 ## Installation
 
-- Clone the repository , use  `https://github.com/SamanAtashi/My-Math-Magicians-app.git` 
-- change Directory, use `cd My-Math-Magicians-app`
+- Clone the repository , use  `https://github.com/SamanAtashi/mathmagician.git` 
+- change Directory, use `cd mathmagician`
 - `npm install`
 
 ## Usage
