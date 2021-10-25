@@ -1,19 +1,19 @@
-.header h1 {
+h1 {
   font-size: 2rem;
 }
 
-.header {
+nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header a:hover {
+nav a:hover {
   color: tomato;
 }
 
-.activeLink {
+.active-link {
   text-decoration: underline;
   color: tomato;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import classes from './Navbar.module.css';
+import './Navbar.css';
 
 const Navbar = () => {
   const links = [
@@ -22,15 +22,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={classes.header}>
+    <nav className="header">
       <h1>Math Magicians</h1>
-      <ul className={classes.dflex}>
+      <ul className="d-flex">
         {links.map((link) => (
-          <li key={link.id} className={classes.links}>
+          <li key={link.id} className="links">
             <NavLink
               exact
               to={link.path}
-              activeClassName={classes.activeLink}
+              activeClassName="active-link"
             >
               {link.text}
             </NavLink>
