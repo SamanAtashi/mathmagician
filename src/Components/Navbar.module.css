@@ -1,0 +1,25 @@
+.header h1 {
+  font-size: 2rem;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a:hover {
+  color: tomato;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: tomato;
+}
+
+.links {
+  display: flex;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+}
