@@ -10,20 +10,19 @@ const Calculator = () => {
     display: 0,
   });
 
+  const displayResult = () => {
+    const { total, next, operation } = state;
+    const display = (total || '') + (operation || '') + (next || '');
+
+    return display || '0';
+  };
+
   const calcButton = (e) => {
     const btnName = e.target.innerHTML;
-    const { total, next } = Calculate(state, btnName);
-
-    if (btnName === 'AC') {
-      updateState({ ...state, display: 0, ...Calculate(state, btnName) });
-    } else if (btnName === '=') {
-      updateState({ ...state, display: total, ...Calculate(state, btnName) });
-    } else if (btnName === '+/-') {
-      updateState({ ...state, display: next || total, ...Calculate(state, btnName) });
-    } else {
-      // eslint-disable-next-line max-len
-      updateState((curr) => ({ ...state, display: (curr.total || '') + (curr.operation || '') + btnName, ...Calculate(state, btnName) }));
-    }
+    updateState({
+      ...state,
+      ...Calculate(state, btnName),
+    });
   };
 
   const list = [
@@ -49,11 +48,8 @@ const Calculator = () => {
   ];
 
   const listItem = list.map((item, index) => (
-    <li
-      key={item.toString()}
-      className={`calc-item o-${index + 1}`}
-    >
-      <button type="button" onClick={calcButton}>
+    <li key={item.toString()} className={`calc-item o-${index + 1}`}>
+      <button type="button" onClick={(e) => calcButton(e)}>
         {item}
       </button>
     </li>
@@ -61,7 +57,7 @@ const Calculator = () => {
 
   return (
     <ul className="d-flex">
-      <li className="calc-result d-flex o-0">{state.display}</li>
+      <li className="calc-result d-flex o-0">{displayResult()}</li>
       {listItem}
     </ul>
   );
