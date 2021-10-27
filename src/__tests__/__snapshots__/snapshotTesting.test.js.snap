@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot testing components renders correctly 1`] = `
+<ul
+  className="d-flex"
+>
+  <li
+    className="calc-result d-flex o-0"
+  >
+    0
+  </li>
+  <li
+    className="calc-item o-1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+  </li>
+  <li
+    className="calc-item o-2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+  </li>
+  <li
+    className="calc-item o-3"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+  </li>
+  <li
+    className="calc-item o-4"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+  </li>
+  <li
+    className="calc-item o-5"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+  </li>
+  <li
+    className="calc-item o-6"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+  </li>
+  <li
+    className="calc-item o-7"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+  </li>
+  <li
+    className="calc-item o-8"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+  </li>
+  <li
+    className="calc-item o-9"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+  </li>
+  <li
+    className="calc-item o-10"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+  </li>
+  <li
+    className="calc-item o-11"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+  </li>
+  <li
+    className="calc-item o-12"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+  </li>
+  <li
+    className="calc-item o-13"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </li>
+  <li
+    className="calc-item o-14"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+  </li>
+  <li
+    className="calc-item o-15"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+  </li>
+  <li
+    className="calc-item o-16"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+  </li>
+  <li
+    className="calc-item o-17"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+  </li>
+  <li
+    className="calc-item o-18"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </li>
+  <li
+    className="calc-item o-19"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+  </li>
+</ul>
+`;
