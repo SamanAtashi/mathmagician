@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshot testing components renders correctly 1`] = `
+exports[`Snapshot testing components Calculator snapshot 1`] = `
 <ul
   className="d-flex"
 >

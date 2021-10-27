@@ -8,8 +8,8 @@ import Quote from './Pages/Quote';
 
 const App = () => (
   <>
-    <Navbar />
     <Switch>
+      <Navbar />
       <Route path="/calculator">
         <div className="App">
           <h2>Let&apos;s do some Calculation!</h2>
